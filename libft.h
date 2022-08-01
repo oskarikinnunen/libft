@@ -6,7 +6,7 @@
 /*   By: okinnune <okinnune@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 17:57:33 by okinnune          #+#    #+#             */
-/*   Updated: 2022/04/26 18:18:03 by okinnune         ###   ########.fr       */
+/*   Updated: 2022/08/01 22:19:02 by okinnune         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,11 +91,11 @@ int				ft_digitcount(int n);/*extra*/
 int				ft_pow(int n, int p);/*extra*/
 int				ft_abs(int n);/*extra*/
 int				ft_sqrt(int nb);/*extra*/
-int				ft_clamp(int val, int min, int max);
-int				ft_min(int i1, int i2);
-int				ft_max(int i1, int i2);
-float			ft_clampf(float val, float min, float max);
-double			ft_degtorad(double angle);
+int				ft_clamp(int val, int min, int max);/*extra*/
+int				ft_min(int i1, int i2);/*extra*/
+int				ft_max(int i1, int i2);/*extra*/
+float			ft_clampf(float val, float min, float max);/*extra*/
+double			ft_degtorad(double angle);/*extra*/
 
 /* lists */
 typedef struct s_list
