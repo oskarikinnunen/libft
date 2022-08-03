@@ -22,8 +22,7 @@ int	ft_atoi(const char *str)
 
 	res = 0;
 	mul = 1;
-	while (*str == ' ' || *str == '\t' || *str == '\n' || (*str >= 11
-			&& *str <= 13))
+	while (ft_isspace(*str))
 		str++;
 	if (*str == '-' || *str == '+')
 		mul += -(*(str++) == '-') * 2;
